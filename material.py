@@ -6,4 +6,23 @@ bsdk = (bc['f']+bc['a']+bc['u']+bc['d']+bc['s']+bc['f']+bc['a']+bc['s']+bc['u']+
 
 startxt = """ʜᴇmʟᴏ ᴅᴏᴍsᴛ [{}](tg://user?id={}),
 
-__ɪ ᴀᴍ ᴀʟɪᴠᴇ ᴀʟʀᴇᴀᴅy 🥴!"""
+__ɪ ᴀᴍ ᴀʟɪᴠᴇ ᴀʟʀᴇᴀᴅy 🥴!
+ᴀᴅᴅ ᴍᴇ ᴛʜᴇʀᴇ 🤤🤤!__ 
+ᴛyᴩᴇ `/help` ꜰᴏʀ ᴄᴏᴍᴍᴀɴᴅꜱ⚜️!
+"""
+
+
+startxt2 = """ʜᴇʟʟᴏ [{}](tg://user?id={}),
+ ❍ ᴄᴏᴅᴇ ᴏᴡɴᴇʀ » [ᴏᴡɴᴇʀ](https://t.me/{})
+"""
+
+hlptxt = """ ʜᴇʟʟᴏ [{}](tg://user?id={}),
+
+__ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʜᴇʟᴩ ᴍᴇɴᴜ__:
+
+ /start - To start the bot.
+ /ping - Check Bot is alive.
+ /restart - To restart the bot.
+
+❍ ᴍᴇᴇᴛ ᴍy ᴏᴡɴᴇʀ ᴀᴛ ⚡[ꜱᴜᴩᴩᴏʀᴛ](https://t.me/XD_SUPORT) ꜰᴏʀ ᴀɴy ᴋɪɴᴅ ᴏꜰ ɪꜱꜱᴜᴇꜱ!!✨😘
+"""
