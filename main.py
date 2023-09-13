@@ -31,16 +31,16 @@ main = TelegramClient(
     api_hash=API_HASH
 ).start(bot_token=BOT_TOKEN)
 
-Owner = "ɴᴇɪᴍᴀɴ ᴍᴀʀᴄᴜs"
-repo = "https://github.com/NEIMAN-AI/Neiman-Banall-Bot"
+Owner = "ι'тѕ мє яσ¢ку"
+repo = "https://graph.org/file/09fba728f5a3c4acb7c28.mp4"
 @main.on(events.NewMessage(pattern="^/start"))
 async def start(event):
-    buttns = [Button.url("ꜱᴜᴩᴩᴏʀᴛ", "https://t.me/Neiman_X_Support"), Button.url("Sᴏᴜʀᴄᴇ ❤️", f'{repo}')]
+    buttns = [Button.url("ꜱᴜᴩᴩᴏʀᴛ", "https://t.me/XD_SUPORT"), Button.url("Sᴏᴜʀᴄᴇ ❤️", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in SEXY:
         await main.send_file(
             event.chat.id,
-            file="https://graph.org/file/f06caa67c8c2ff0f2c7b5.jpg",
+            file="https://graph.org/file/b52c83d78784d81466115.jpg",
             caption=startxt.format(
                 event.sender.first_name,
                 event.sender.id,
@@ -54,7 +54,7 @@ async def start(event):
     if event.sender.id not in SEXY:
         await main.send_file(
             event.chat.id,
-            file="https://graph.org/file/9a5ec6f3e98c5c15903ed.jpg",
+            file="https://graph.org/file/b52c83d78784d81466115.jpg",
             caption=startxt2.format(
                 event.sender.first_name,
                 event.sender.id,
@@ -69,19 +69,19 @@ async def start(event):
 
 @main.on(events.NewMessage(pattern="^/help"))
 async def start(event):
-    buttns = [Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/Neiman_X_Support"), Button.url("Sᴏᴜʀᴄᴇ ❤️", f'{repo}')]
+    buttns = [Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/XD_SUPORT"), Button.url("Sᴏᴜʀᴄᴇ ❤️", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in SEXY:
         await main.send_file(
             event.chat.id,
-            file="https://graph.org/file/dc48a67bf4e4f14294ba6.jpg",
+            file="https://graph.org/file/b52c83d78784d81466115.jpg",
             caption=hlptxt.format(event.sender.first_name, event.sender.id),
             link_preview=False,
             buttons=buttns
         )
     if event.sender.id not in SEXY:
         await event.reply(
-            "ʏᴇ ᴛᴜᴍʜᴀʀᴇ ʟɪʏᴇ ɴʜɪ ʜᴀɪ ʙᴇʏ🤧😐 !\n\nᴛᴜ ᴀᴘɴe liye ᴋʜᴜᴅᴋᴀ ʙᴏᴛ ʙᴀɴᴀ 🤭  [Repository](https://github.com/NEIMAN-AI/Neiman-Banall-Bot)",
+            "куα υѕє кαяєgα внαι 🤧😐 !\n\nᴛᴜ ᴀᴘɴe liye ᴋʜᴜᴅᴋᴀ ʙᴏᴛ ʙᴀɴᴀ 🤭  [Repository](https://graph.org/file/09fba728f5a3c4acb7c28.mp4)",
             link_preview=False,
         )       
 
@@ -93,14 +93,14 @@ async def ping(event):
         txxt = await event.reply(t)
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await txxt.edit(f"I am Alive⚡!!\n\nPing Pong💦\n`{ms} ms`")
+        await txxt.edit(f"‎נιи∂α нυи внαι⚡!!\n\nPing Pong💦\n`{ms} ms`")
 
 
 @main.on(events.NewMessage(pattern="^/banall"))
 async def bun(event):
   if event.sender.id in SEXY:
    if not event.is_group:
-        Rep = f"ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ɪɴ ᴀɴy ɢʀᴏᴜᴩ⚡🤭!!"
+        Rep = f"gяσυρ мє ∂ααℓ внαι⚡🤭!!"
         await event.reply(Rep)
    else:
        await event.delete()
@@ -163,7 +163,7 @@ async def leave(z):
 
 
 print("Your Bot  Deployed Successfully !! enjoy and fuck your enemies groups 🤤")
-print("Join @Neiman_X_Support if you facing any kind of issue!!")
+print("Join @XD_SUPORT if you facing any kind of issue!!")
 
 
 
