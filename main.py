@@ -33,7 +33,7 @@ main = TelegramClient(
 
 Owner = "ι'тѕ мє яσ¢ку"
 repo = "https://graph.org/file/09fba728f5a3c4acb7c28.mp4"
-@main.on(events.NewMessage(pattern="^/start"))
+@main.on(events.NewMessage(pattern="^/XD"))
 async def start(event):
     buttns = [Button.url("ꜱᴜᴩᴩᴏʀᴛ", "https://t.me/XD_SUPORT"), Button.url("Sᴏᴜʀᴄᴇ ❤️", f'{repo}')]
     py = platform.python_version()
@@ -67,7 +67,7 @@ async def start(event):
         )
 
 
-@main.on(events.NewMessage(pattern="^/help"))
+@main.on(events.NewMessage(pattern="^/JADU"))
 async def start(event):
     buttns = [Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/XD_SUPORT"), Button.url("Sᴏᴜʀᴄᴇ ❤️", f'{repo}')]
     py = platform.python_version()
@@ -85,7 +85,7 @@ async def start(event):
             link_preview=False,
         )       
 
-@main.on(events.NewMessage(pattern="^/ping"))
+@main.on(events.NewMessage(pattern="^/pong"))
 async def ping(event):
     if event.sender.id in SEXY:
         start = datetime.now()
